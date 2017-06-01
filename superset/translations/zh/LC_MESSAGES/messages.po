@@ -265,7 +265,7 @@ msgstr "最大值"
 msgid ""
 "Whether this column is exposed in the `Filters` section of the explore "
 "view."
-msgstr ""
+msgstr "当前列是否显示在'筛选'中"
 
 #: superset/connectors/druid/views.py:88 superset/connectors/sqla/views.py:102
 msgid ""
@@ -365,11 +365,11 @@ msgstr "隐藏"
 
 #: superset/connectors/druid/views.py:193 superset/connectors/sqla/views.py:186
 msgid "Enable Filter Select"
-msgstr ""
+msgstr "启用筛选选择"
 
 #: superset/connectors/druid/views.py:194
 msgid "Default Endpoint"
-msgstr ""
+msgstr "默认端点"
 
 #: superset/connectors/druid/views.py:195
 msgid "Time Offset"
@@ -388,7 +388,7 @@ msgstr "缺少时间字段"
 
 #: superset/connectors/sqla/models.py:376
 msgid "Metric '{}' is not valid"
-msgstr ""
+msgstr "矩阵'{}' is not valid"
 
 #: superset/connectors/sqla/views.py:39
 msgid ""
@@ -430,7 +430,7 @@ msgstr "SQL表达式"
 
 #: superset/connectors/sqla/views.py:154
 msgid "Name of the table that exists in the source database"
-msgstr ""
+msgstr "表名已经存在"
 
 #: superset/connectors/sqla/views.py:156
 msgid "Schema, as used only in some databases like Postgres, Redshift and DB2"
@@ -492,21 +492,21 @@ msgid "Login"
 msgstr "登录"
 
 #: superset/templates/superset/import_dashboards.html:11
-msgid "Import"
+msgid "Import "
 msgstr "导入"
 
 #: superset/templates/superset/request_access.html:2
 msgid "No Access!"
-msgstr ""
+msgstr "无访问权限"
 
 #: superset/templates/superset/request_access.html:7
 #, python-format
 msgid "You do not have permissions to access the datasource(s): %(name)s."
-msgstr ""
+msgstr "你没有权限访问数据库:%(name)s."
 
 #: superset/templates/superset/request_access.html:13
 msgid "Request Permissions"
-msgstr ""
+msgstr "请求权限"
 
 #: superset/templates/superset/request_access.html:16
 msgid "Cancel"
@@ -526,7 +526,7 @@ msgstr "测试连接"
 
 #: superset/views/core.py:201
 msgid "Expose this DB in SQL Lab"
-msgstr ""
+msgstr "在SQL Lab中显示此数据库"
 
 #: superset/views/core.py:202
 msgid ""
@@ -543,13 +543,13 @@ msgstr ""
 
 #: superset/views/core.py:210
 msgid "Allow CREATE TABLE AS option in SQL Lab"
-msgstr ""
+msgstr "允许在SQL Lab中创建表格"
 
 #: superset/views/core.py:211
 msgid ""
 "Allow users to run non-SELECT statements (UPDATE, DELETE, CREATE, ...) in"
 " SQL Lab"
-msgstr ""
+msgstr "允许用户在SQL Lab中执行修改语句(update, delete, create,..)"
 
 #: superset/views/core.py:215
 msgid ""
@@ -559,15 +559,15 @@ msgstr ""
 
 #: superset/views/core.py:229
 msgid "Expose in SQL Lab"
-msgstr ""
+msgstr "显示在SQL Lab中"
 
 #: superset/views/core.py:230
 msgid "Allow CREATE TABLE AS"
-msgstr ""
+msgstr "允许创建表格"
 
 #: superset/views/core.py:231
 msgid "Allow DML"
-msgstr ""
+msgstr "允许DML"
 
 #: superset/views/core.py:232
 msgid "CTAS Schema"
@@ -580,7 +580,7 @@ msgstr "作者"
 
 #: superset/views/core.py:236
 msgid "SQLAlchemy URI"
-msgstr ""
+msgstr "数据库链接地址(SQLAlchemy)"
 
 #: superset/views/core.py:238
 msgid "Extra"
@@ -600,7 +600,7 @@ msgstr "数据库URL"
 
 #: superset/views/core.py:300
 msgid "Roles to grant"
-msgstr ""
+msgstr "角色权限"
 
 #: superset/views/core.py:301
 msgid "Created On"

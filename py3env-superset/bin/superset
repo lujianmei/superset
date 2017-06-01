@@ -1,0 +1,6 @@
+#!/Users/kevin/workspace/github/superset/py3env-superset/bin/python
+# EASY-INSTALL-DEV-SCRIPT: 'superset==0.18.2','superset'
+__requires__ = 'superset==0.18.2'
+__import__('pkg_resources').require('superset==0.18.2')
+__file__ = '/Users/kevin/workspace/github/superset/superset/bin/superset'
+exec(compile(open(__file__).read(), __file__, 'exec'))

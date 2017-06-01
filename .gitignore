@@ -10,6 +10,7 @@ _static
 _images
 _modules
 superset/bin/supersetc
+superset/assets/node_modules
 env_py3
 .eggs
 build
@@ -19,6 +20,7 @@ superset_config.py
 local_config.py
 env
 dist
+py3env-superset
 superset.egg-info/
 app.db
 *.bak
